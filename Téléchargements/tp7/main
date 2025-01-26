@@ -1,0 +1,11 @@
+
+from src.math_operation import add, subtract, multiply, divide
+from src.string_operation import concatenate, to_uppercase
+
+print(add(10, 5))
+print(subtract(10, 5))
+print(multiply(10, 5))
+print(divide(10, 5))
+
+print(concatenate("Hello, ", "world!"))
+print(to_uppercase("hello"))
